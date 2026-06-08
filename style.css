@@ -1,0 +1,10 @@
+h1{
+    color:blue;
+    font-size:20;
+    text-align:center;
+    text-decoration: wavy;
+}
+h1:hover{
+    background-color:thistle;
+    text-transform:scale(1.05);
+}

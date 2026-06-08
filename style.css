@@ -1,10 +1,27 @@
 h1{
-    color:blue;
-    font-size:20;
+    color:rgb(129, 129, 250);
+    font-size:200px;
     text-align:center;
-    text-decoration: wavy;
+    
 }
 h1:hover{
-    background-color:thistle;
-    text-transform:scale(1.05);
+    background-color:rgb(245, 238, 245);
+    transform:scale(1.05);
+    border:2px solid white;
+    margin-left:20px;
+    text-align:right;
+    text-decoration: line-through;
+text-decoration-color: black;
+text-decoration-thickness: 2px;
+white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 5s linear infinite;
+  @keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 }
